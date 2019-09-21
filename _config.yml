@@ -1,5 +1,5 @@
-title:            Blog Title
-description:      Describe your website here.
+title:            Vinicius Celms
+description:      Registrando minhas anotações técnicas, sempre focada em Opensource, Infra Ágil, Programação, DevOps e DataOps
 
 # put your disqus here
 disqus_shortname:
@@ -20,8 +20,6 @@ url: http://aronbordin.com/neo-hpstr-jekyll-theme
 menu:
   - title: 'Home'
     url: '/'
-  - title: 'Fork'
-    url: 'http://github.com/aron-bordin/neo-hpstr-jekyll-theme'
   - title: 'Install'
     url: 'http://github.com/aron-bordin/neo-hpstr-jekyll-theme#installation'
   - title: 'Tags'
@@ -39,15 +37,15 @@ menu:
 
 # Owner/author information
 owner:
-  name:           Your name
-  site:           http://aronbordin.com
+  name:           Vinicius Celms
+  site:           http://vinicelms.github.io/blog
   avatar:         images/avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
+  bio:            "Desenvolvedor, formado em Análise e Desenvolvimento de Sistemas, apaixonado por Opensource e sua cultura, Linux, Python, cultura ágil, cloud e infraestrutura"
+  email:          vinicius.celms@gmail.com
   # Twitter nick for use in Twitter cards and follow button.
-  twitter: aron_bordin # if no twitter in this config, the twitter follow button will be removed
+  twitter: viniciuscelms # if no twitter in this config, the twitter follow button will be removed
   # GitHub nick for use in follow button in author block.
-  github: aron-bordin
+  github: vinicelms
 
 # Twitter account associated with the site if different from owner/author twitter account.
 # Used in Twitter cards.
@@ -56,11 +54,9 @@ twitter:
 # Social networking links used in author block underneath posts. Update and remove as you like.
 social:
   - title: "github"
-    url: "https://github.com/aron-bordin"
+    url: "https://github.com/vinicelms"
   - title: "linkedin"
-    url: "https://br.linkedin.com/in/aronbordin"
-  - title: "youtube"
-    url: "https://www.youtube.com/channel/UCfnSek-9HPWOx5e2pH7VFgg"
+    url: "https://br.linkedin.com/in/viniciuscelms"
 
 # Background image to be tiled on all pages
 background:
@@ -72,8 +68,8 @@ google_verify:
 bing_verify:
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
-locale:      en_US
+timezone:    America/Sao_Paulo
+locale:      pt_BR
 future:      true
 highlighter: rouge
 markdown:    kramdown
