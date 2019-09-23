@@ -1,36 +1,33 @@
 ---
 layout: page
 title: About
-share: true
+share: false
 ---
 
-# Neo-HPSTR Jekyll Theme
+# Este projeto
 
-Neo-HPSTR Jekyll is a responsive and modern blog template.
+É um projeto para registar o conhecimento que adquiro/adquiri. Sem prentensões de ganhar notoriedade ou ter grande visibilidade. Com dados registrados em diversas fontes, como Gists, Evernote pessoal ou scripts para resolver problemas pessoais, a intenção é centralizar tudo.
 
-# Live Demo
+Acredito em informação aberta, então muito pode ser compartilhado, desde que anonimizado. Já que tenho bastante coisa anotada, agora o desafio é pensar neste conhecimento compartilhado.
 
-You can see it running [here](http://blog.rhesoft.com/) and [here](http://aronbordin.com/neo-hpstr-jekyll-theme/).
+O simples para mim, pode ser complexo para outros e o inverso também é verdadeiro. Então não compreenda este projeto como formação ou nível de conhecimento, apenas usufrua daquilo que precisar, da mesma forma que o estou fazzendo com este projeto.
 
+# Sobre mim
 
-## What Neo-HPSTR brings to the table:
+Me chamo Vinicius Celms, comecei a me aprofundar na vida de tecnologia com 13 anos. Comecei aprendendo HTML e CSS, passando por tempo depois para Javascript. Trabalho efetivamente com tecnologia desde 2007. Pretendo continuar trabalhando e aprendendo a cada dia.
 
-* Modern design.
-* Responsive templates for post, page, and post index `_layouts`. Looks great on mobile, tablet, and desktop devices.
-* Gracefully degrades in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.  
-* Sweet topbar animated menu with support for drop-downs.
-* Optional [Disqus](http://disqus.com) comments and social sharing links.
-* [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) support for a better social sharing experience.
-* Simple [custom 404 page](http://mmistakes.github.io/hpstr-jekyll-theme/404.html) to get you started.
-* Stylesheets for Pygments and Coderay [syntax highlighting](http://mmistakes.github.io/hpstr-jekyll-theme/code-highlighting-post/) to make your code examples look snazzy
-* Author panel, with social links
-* Read more tag support(similar with Wordpress ).
+Me formei em Análise e Desenvolvimento de Sistemas, por gostar muito de programar. Há algum tempo me deparei com a área de infraestrutura e administração de sistemas, que gostei muito. Por ser exposto a cultura ágil, notei que poderia integrar programação e infraestrutura, intensificando a cultura DevOps.
 
-![Preview](http://aronbordin.com/images/neo-hpstr-jekyll-theme-preview.png)
-
-
----
-
-## Getting Started
-
-Neo-HPSTR takes advantage of Sass and data files to make customizing easier. These features require Jekyll 2.x and will not work with older versions of Jekyll.
+<div class="read-more">
+<div class="author-share">
+  <div class="author-container">
+    <img class="author-img" src="{{site.url}}/{{site.owner.avatar}}" alt="{{site.owner.name}}" />
+    <div class="author-bio">{{site.owner.bio}}</div>
+  </div>
+  <ul class="list-inline social-buttons" style="text-align: center">
+    {% for network in site.social %}
+      <li><a href="{{ network.url }}" target="_blank"><i class="fa fa-{{ network.title }} fa-fw"></i></a></li>
+    {% endfor %}
+  </ul>
+</div>
+</div>
