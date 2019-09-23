@@ -10,7 +10,7 @@ excerpt_separator: <!--more-->
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 
-url: http://vinicelms.github.io/blog
+url: https://vinicelms.github.io/blog
 
 # draw your top menu here
 # each item must have a title and a url.
@@ -36,7 +36,7 @@ menu:
 # Owner/author information
 owner:
   name:           Vinicius Celms
-  site:           http://vinicelms.github.io/blog
+  site:           https://vinicelms.github.io/blog
   avatar:         images/avatar.jpg
   bio:            "Desenvolvedor, formado em Análise e Desenvolvimento de Sistemas, apaixonado por Opensource e sua cultura, Linux, Python, cultura ágil, cloud e infraestrutura"
   email:          vinicius.celms@gmail.com
