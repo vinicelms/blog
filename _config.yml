@@ -2,7 +2,7 @@ title:            Vinicius Celms
 description:      Registrando minhas anotações técnicas, sempre focada em Opensource, Infra Ágil, Programação, DevOps e DataOps
 
 # put your disqus here
-disqus_shortname:
+disqus_shortname: blog-vinicius-celms
 reading_time:     true # if true, shows the estimated reading time for a post
 words_per_minute: 200
 logo:             images/logo.png # logo visible in the topbar
