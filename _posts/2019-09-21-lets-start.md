@@ -4,6 +4,7 @@ title: "O começo de tudo!"
 description: ""
 tags: [start, intro]
 categories: [general, intro]
+comments: true
 image:
     feature: Lets-start.png
 ---
